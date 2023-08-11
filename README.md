@@ -23,5 +23,9 @@ The template creates the following directories and files:
 To use this template, you'll need to have [Cookiecutter](https://github.com/cookiecutter/cookiecutter) installed. Then you can create a new project with:
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install cookiecutter
 cookiecutter https://github.com/btmartin721/acamel-cookiecutter
-
+```
