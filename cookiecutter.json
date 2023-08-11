@@ -1,6 +1,6 @@
 {   
     "project_name": "My Aweseome Project",
     "project_slug": "{{cookiecutter.project_name|slugify}}",
-    "project_description": "Describe the project",
+    "project_description": "Describe the project"
 }
 
